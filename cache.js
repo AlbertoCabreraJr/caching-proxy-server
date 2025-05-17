@@ -1,5 +1,4 @@
 const cache = new Map();
-// 
 
 const get = (key) => {
   return cache.get(key);
