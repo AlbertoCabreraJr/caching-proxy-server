@@ -2,21 +2,21 @@
 
 A simple CLI-based caching proxy server that forwards requests to an origin server and caches responses to improve performance.
 
-## 🚀 Features
+## Features
 
 - Forwards requests to a specified origin URL
 - Caches GET responses in memory
 - Adds `X-Cache: HIT` or `X-Cache: MISS` header
 - Command to clear the cache
 
-## 📦 Installation
+## Installation
 
 ```
 npm install
 npm link
 ```
 
-## 🔧 Usage
+## Usage
 
 Start the caching proxy:
 
@@ -30,7 +30,7 @@ Clear the cache:
 caching-proxy --clear-cache
 ```
 
-## 🧪 How to Test
+## How to Test
 
 1. Start the proxy:
 
